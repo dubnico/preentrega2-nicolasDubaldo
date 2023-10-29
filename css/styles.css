@@ -10,24 +10,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap');
 
 /* colors usados en el proyecto:
-#FF5C8E */
+#FF5C8E
+#6252C6 */
 
+
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+/* TRABAJO CON EL HEADER */
 header{
     height: 50px;
-
 }
 
+/* color del contenedor de la lista menú */
 .container-header-color{
-    background-color: #fff;
+    background-color: #6252C6;
 }
 
+/* color del "logo" */
 #colorlogo{
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 900;
     font-family: roboto;
+    color: #fff;
 }
 
-
+/* imagen del banner y modificaciones */
 .img-banner{
     height: 400px;
     background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
@@ -36,10 +47,24 @@ header{
     background-position : -10px  -350px; /*posición de la foto como yo la quiero*/
 }
 
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+/* CÓDIGO DEL MAIN */
 
 .tamaño-main-index{
-    height: 500px;
+    height: 600px;
 }
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+
+/* CÓDIGO DEL FOOTER*/
 
 footer{
     height: 150px;
