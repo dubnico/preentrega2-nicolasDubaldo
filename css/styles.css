@@ -1,0 +1,60 @@
+
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+/* colors usados en el proyecto:
+#FF5C8E */
+
+header{
+    height: 50px;
+
+}
+
+.container-header-color{
+    background-color: #fff;
+}
+
+#colorlogo{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: roboto;
+}
+
+
+.img-banner{
+    height: 400px;
+    background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+    background-size: cover;
+    filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+    background-position : -10px  -350px; /*posición de la foto como yo la quiero*/
+}
+
+
+.tamaño-main-index{
+    height: 500px;
+}
+
+footer{
+    height: 150px;
+    background-color: #FF5C8E;
+    color: #E0EEF0;
+    font-weight: 700;
+}
+
+.text-footer{
+    padding: 50px
+}
+
+.menu{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
