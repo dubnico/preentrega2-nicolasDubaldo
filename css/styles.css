@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,400;0,700;0,900;1,300&family=Roboto:ital,wght@0,700;1,700&display=swap');
 
 /* colors usados en el proyecto:
-#FF5C8E
+#FF8066
 #6252C6
 #54525e */
 
@@ -27,7 +27,7 @@ header{
 
 /* color del contenedor de la lista menú */
 .container-header-color{
-    background-color: #FF5C8E;
+    background-color: #FF8066;
 }
 
 #color-search{
@@ -78,6 +78,8 @@ header{
     font-weight: bold;
     font-size: 19px;
 }
+
+
 /* CÓDIGO call to action  */
 
 .contenedor-call{
@@ -107,16 +109,10 @@ header{
 }
 
 .call-to-action-b:hover{
-    background-color: #6252C6;
+    background-color: #FF8066;
     color: #fff;
     transition: color 0.3s;
 }
-
-
-
-/* CÓDIGO DEL CALL TO ACTION */
-
-
 
 
 /* -------------------------------------------- */
@@ -128,14 +124,13 @@ header{
 /* CÓDIGO DEL FOOTER*/
 
 footer{
-    height: 150px;
     background-color: #54525e;
     color: #E0EEF0;
     font-weight: 700;
 }
 
 .text-footer{
-    padding: 50px
+    padding: 20px
 }
 
 .menu{
@@ -144,3 +139,21 @@ footer{
     padding: 0;
 }
 
+.redes{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.redes a{
+    text-decoration: none;
+    text-align: center;
+    color:#FF8066 ;
+    font-size: 30px;
+    letter-spacing: 25px;
+}
+
+
+/* @media (max-width: 790px){
+
+} */ 
