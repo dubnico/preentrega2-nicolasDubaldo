@@ -11,7 +11,8 @@
 
 /* colors usados en el proyecto:
 #FF5C8E
-#6252C6 */
+#6252C6
+#54525e */
 
 
 /* -------------------------------------------- */
@@ -26,7 +27,7 @@ header{
 
 /* color del contenedor de la lista menú */
 .container-header-color{
-    background-color: #6252C6;
+    background-color: #FF5C8E;
 }
 
 #color-search{
@@ -48,7 +49,7 @@ header{
     background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
     background-size: cover;
     filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
-    background-position : -10px  -350px; /*posición de la foto como yo la quiero*/
+    background-position:center;
 }
 
 /* -------------------------------------------- */
@@ -62,6 +63,62 @@ header{
     height: 600px;
 }
 
+
+/* CÓDIGO frase  */
+
+.contenedor-frase{
+    padding: 50px 120px 120px 120px;
+}
+
+.frase{
+    font-size: 18px;
+}
+
+.frase span{
+    font-weight: bold;
+    font-size: 19px;
+}
+/* CÓDIGO call to action  */
+
+.contenedor-call{
+    padding: 50px 120px 120px 120px;
+}
+
+.call-to-action-a{
+    text-transform: capi;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 52px;
+    text-align: right;
+    line-height: 105%; /* establezco interlineado */
+
+
+}
+
+.call-to-action-b{
+    text-decoration: none;
+    color: #101010;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.call-to-action-b:hover{
+    background-color: #6252C6;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+
+
+/* CÓDIGO DEL CALL TO ACTION */
+
+
+
+
 /* -------------------------------------------- */
 /* -------------------------------------------- */
 /* -------------------------------------------- */
@@ -72,7 +129,7 @@ header{
 
 footer{
     height: 150px;
-    background-color: #FF5C8E;
+    background-color: #54525e;
     color: #E0EEF0;
     font-weight: 700;
 }
