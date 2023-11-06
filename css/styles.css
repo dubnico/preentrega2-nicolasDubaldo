@@ -154,11 +154,6 @@ footer{
 }
 
 
-/* @media (max-width: 790px){
-
-} */ 
-
-
 /* -------------------------------------------- */
 /* -------------------------------------------- */
 /* -------------------------------------------- */
@@ -194,3 +189,99 @@ footer{
     background-color: #FF8066;
     border: none;
 }
+
+/* ---------------------- INICIO MEDIA QUERIES ----------------------------------------*/ 
+
+
+
+@media (max-width: 480px) {
+    header{
+        height: 60px;
+    }
+
+/* "logo" */
+    #colorlogo{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: roboto;
+    color: #fff;
+}
+
+    .img-banner{
+        height: 250px;
+        background-image: url(../img/pexels-polina-zimmerman-3747468.jpg);
+        background-size: cover;
+        filter: grayscale(620%); /*filtro grayscale para img en black_and_white*/
+        background-position:center;
+    }
+
+/* CÓDIGO frase  */
+.contenedor-frase{
+    padding: 20px 20px 20px 20px;
+}
+
+.frase{
+    font-size: 12px;
+}
+
+.frase span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* CÓDIGO call to action  */
+.contenedor-call{
+    padding: 20px;
+}
+
+.call-to-action-a{
+    text-transform: capi;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    line-height: 150%; /* establezco interlineado */
+}
+
+.call-to-action-b{
+    text-decoration: none;
+    color: #101010;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/* CÓDIGO DEL FOOTER*/
+footer{
+    background-color: #54525e;
+    color: #E0EEF0;
+}
+
+.text-footer{
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+.redes{
+    text-align: center;
+    padding: 12px;
+}
+
+.redes a{
+    text-decoration: none;
+    text-align: center;
+    color:#FF8066 ;
+    font-size: 20px;
+    letter-spacing: 16px;
+}
+}
+
+
+/* ---------------------- FIN MEDIA QUERIES ----------------------------------------*/ 
+
