@@ -158,7 +158,9 @@ footer{
 /* -------------------------------------------- */
 /* -------------------------------------------- */
 
-
+.list-group{
+    padding: 50px;
+}
 
 /* CÓDIGO TIENDA*/
 
@@ -189,6 +191,32 @@ footer{
     background-color: #FF8066;
     border: none;
 }
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* CÓDIGO EVENTOS*/
+
+.section-eventos{
+    background-color: #242121;
+}
+
+
+#title-eventos{
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+    /* text-shadow: 1px 0px 12px; */
+}
+
+.list-group-item{
+    text-align: center;
+}
+
+
 
 /* ---------------------- INICIO MEDIA QUERIES ----------------------------------------*/ 
 
